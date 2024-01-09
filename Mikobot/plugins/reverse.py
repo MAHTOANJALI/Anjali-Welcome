@@ -67,13 +67,13 @@ async def reverseImageSearch(_: Client, m: t.Message):
             telegraph_page = telegraph.create_page(
                 "More Results", html_content=htmlMessage
             )
-            message += f"\n\n[More Results](https://telegra.ph/{telegraph_page['path']})\n\nBy @LexicaAPI"
+            message += f"\n\n[More Results](https://telegra.ph/{telegraph_page['path']})\n\nBy @QUEENx_GOD"
             await reply.delete()
             return await m.reply_text(message, reply_markup=btn)
 
         message = "\n".join([f"{index+1}. {name}" for index, name in enumerate(names)])
         await reply.delete()
-        await m.reply_text(f"{message}\n\nBy @LexicaAPI", reply_markup=btn)
+        await m.reply_text(f"{message}\n\nBy @QUEENx_GOD", reply_markup=btn)
     except Exception as E:
         traceback.print_exc()
         return await m.reply_text("Ran into an error.")
