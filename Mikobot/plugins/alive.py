@@ -34,7 +34,7 @@ async def alive(_, message: Message):
     caption = f"""**HEY, I AM {BOT_NAME}**
 
 ━━━━━━ 🌟✿🌟 ━━━━━━
-✪ **CREATOR:** [🄺🄰🅁🄼🄰](https://t.me/anime_Freakz)
+✪ **CREATOR:** [𓆩 ᴍᴧʜᴛᴏ ✗ ᴧɴᴊᴀʟɪ 𓆪](https://t.me/QUEENx_GOD)
 
 {library_versions_text}
 
