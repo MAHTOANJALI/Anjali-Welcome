@@ -53,7 +53,7 @@ async def upvote(_, message):
     new_karma = {"karma": karma}
     await update_karma(chat_id, await int_to_alpha(user_id), new_karma)
     await message.reply_text(
-        f"𝗜𝗻𝗰𝗿𝗲𝗺𝗲𝗻𝘁𝗲𝗱 𝗸𝗮𝗿𝗺𝗮 𝗼𝗳 {user_mention} 𝗯𝘆 1.\n**⭐️ 𝗧𝗢𝗧𝗔𝗟 𝗣𝗢𝗜𝗡𝗧𝗦:** {karma}"
+        f"𝗜𝗻𝗰𝗿𝗲𝗺𝗲𝗻𝘁𝗲𝗱 𝗠𝗮𝗵𝘁𝗼 𝗼𝗳 {user_mention} 𝗯𝘆 1.\n**⭐️ 𝗧𝗢𝗧𝗔𝗟 𝗣𝗢𝗜𝗡𝗧𝗦:** {karma}"
     )
 
 
@@ -88,7 +88,7 @@ async def downvote(_, message):
     new_karma = {"karma": karma}
     await update_karma(message.chat.id, await int_to_alpha(user_id), new_karma)
     await message.reply_text(
-        f"𝗗𝗲𝗰𝗿𝗲𝗺𝗲𝗻𝘁𝗲𝗱 𝗸𝗮𝗿𝗺𝗮 𝗼𝗳 {user_mention} 𝗯𝘆 1.\n**⭐️ 𝗧𝗢𝗧𝗔𝗟 𝗣𝗢𝗜𝗡𝗧𝗦:** {karma}"
+        f"𝗗𝗲𝗰𝗿𝗲𝗺𝗲𝗻𝘁𝗲𝗱 𝗠𝗮𝗵𝘁𝗼 𝗼𝗳 {user_mention} 𝗯𝘆 1.\n**⭐️ 𝗧𝗢𝗧𝗔𝗟 𝗣𝗢𝗜𝗡𝗧𝗦:** {karma}"
     )
 
 
@@ -101,7 +101,7 @@ async def karma(_, message):
         if not karma:
             await m.edit_text("No karma in the database for this chat.")
             return
-        msg = f"**🎖 𝗞𝗔𝗥𝗠𝗔 𝗟𝗜𝗦𝗧 𝗢𝗙 {message.chat.title} :**\n"
+        msg = f"**🎖 𝗠𝗔𝗛𝗧𝗢 𝗟𝗜𝗦𝗧 𝗢𝗙 {message.chat.title} :**\n"
         limit = 0
         karma_dicc = {}
         for i in karma:
