@@ -10,26 +10,26 @@ from Mikobot import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://te.legra.ph/file/f3c2ae32308fbc89f570b.jpg",
+    "https://te.legra.ph/file/9270f2b5dc9207aebc12d.jpg",
+    "https://te.legra.ph/file/184c312979e174a9640f4.jpg",
+    "https://te.legra.ph/file/8a601822cf2d6b20633c1.jpg",
+    "https://te.legra.ph/file/6f9b0d4201f4495796967.jpg",
+    "https://te.legra.ph/file/d20ed1c02afca8d52168d.jpg",
+    "https://te.legra.ph/file/f731c9f8b8fd1334a600a.jpg",
 ]
 
-HEY_IMG = "https://te.legra.ph/file/471ef129b9c1b479676fd.jpg"
+HEY_IMG = "https://te.legra.ph/file/ede897f84d395c273bb02.jpg"
 
 ALIVE_ANIMATION = [
-    "https://telegra.ph//file/f9e2b9cdd9324fc39970a.mp4",
-    "https://telegra.ph//file/8d4d7d06efebe2f8becd0.mp4",
-    "https://telegra.ph//file/c4c2759c5fc04cefd207a.mp4",
-    "https://telegra.ph//file/b1fa6609b1c4807255927.mp4",
-    "https://telegra.ph//file/f3c7147da6511fbe27c25.mp4",
-    "https://telegra.ph//file/39071b73c02e3ff5945ca.mp4",
-    "https://telegra.ph//file/8d4d7d06efebe2f8becd0.mp4",
-    "https://telegra.ph//file/6efdd8e28756bc2f6e53e.mp4",
+    "https://te.legra.ph/file/7ebd850524f808cd42ce1.mp4",
+    "https://te.legra.ph/file/493767a7d0bd50d73b7a4.mp4",
+    "https://te.legra.ph/file/551dfedb38e70c41da2e4.mp4",
+    "https://te.legra.ph/file/fbb19a9565cc91e6ca983.mp4",
+    "https://te.legra.ph/file/d701583acde71c051cd04.mp4",
+    "https://te.legra.ph/file/f8814d64bd74ad4f5bbf1.mp4",
+    "https://te.legra.ph/file/2f693930cf8c4131c55f0.mp4",
+    "https://te.legra.ph/file/e77676261381ec4b1da31.mp4",
 ]
 
 FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
